@@ -1,5 +1,6 @@
 <?php
-require_once './includes/database.php';
+
+session_start()
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,25 +13,10 @@ require_once './includes/database.php';
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet"> 
 </head>
+<?php include 'navigation.php'?>
 <body>
-<?php //include "./navigation.php"; ?>
-<?php
-//
-//$sql = "SELECT * FROM users" ;
-//$result = mysqli_query($conn, $sql);
-//$rowCount = mysqli_num_rows($result);
-//
-//if ($rowCount > 0) {
-//    while ($row = mysqli_fetch_assoc($result)) {
-//        echo $row['username'] ;
-//
-//    }
-//}else {
-//    echo "no results found.";
-//}
-//
-//?>
-?>
+
+
     <main>
         <div class="wrapper">
             <div class="sidebar">
@@ -86,6 +72,9 @@ require_once './includes/database.php';
             </div>
             
         </div>
+
+
+
     </main>
     <script src="script.js"></script>
 </body>

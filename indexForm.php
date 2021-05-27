@@ -1,3 +1,8 @@
+<?php
+session_start()
+?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,7 +14,7 @@
     <link rel="stylesheet" href="stylesForm.css">
     <link rel="stylesheet" href="normalize.css">
 </head>
-<?php include "./navigation.php"; ?>
+<?php include 'navigation.php'?>
 <body>
 <div class="form">
     <form action="#" id="form" class="form__body">

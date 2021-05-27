@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d414994-570e-45f9-9127-982faed79813" name="Default Changelist" comment="" />
+    <list default="true" id="5d414994-570e-45f9-9127-982faed79813" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/includes/connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/login-ins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/register-inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/logForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navmenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/navmenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/regForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/regForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesCV.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesCV.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,13 +27,14 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PATH_TO_GIT" value="/usr/bin/git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/navigation.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/regForm.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/includes/register-inc.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/includes/login-ins.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/includes/database.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
@@ -28,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -40,6 +58,16 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="navigation.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/public_html/public_html/navigation.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.navigation.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,11 +79,27 @@
       <workItem from="1621800025341" duration="633000" />
       <workItem from="1621853310225" duration="12355000" />
       <workItem from="1621882834132" duration="3737000" />
-      <workItem from="1621925883545" duration="2049000" />
+      <workItem from="1621925883545" duration="6504000" />
+      <workItem from="1621932770040" duration="17098000" />
+      <workItem from="1622002020762" duration="599000" />
+      <workItem from="1622012613696" duration="20365000" />
+      <workItem from="1622055212089" duration="1834000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

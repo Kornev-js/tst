@@ -1,3 +1,5 @@
+<?php session_start() ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +7,10 @@
     <title>registration form</title>
     <link rel="stylesheet" href="regForm.css">
 </head>
-<?php include "./navigation.php"; ?>
+<?php include 'navigation.php'?>
 <body>
 <div class="form">
-    <form action="includes/register-inc.php" class="form__body" method="post">
+    <form action="includes/registration.php" class="form__body" method="post">
         <div class="title">
        <div class="line"><hr size="4"></div>
         <h1 class="formName">Register</h1>
@@ -47,6 +49,12 @@
         <button type="submit" class="form__button">Register Now</button>
     </form>
     <p class="Registered">Already have an account? <a href="logForm.php">Sign in</a> </p>
+   <?php if ($_SESSION['message']) {
+       echo '<p class = "msg">' . $_SESSION['message'] . ' </p>';
+   }
+   unset($_SESSION['message']);
+   ?>
+
 </div>
 
 </body>
