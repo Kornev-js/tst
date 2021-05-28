@@ -5,12 +5,12 @@
 <head>
     <meta charset="UTF-8">
     <title>registration form</title>
-    <link rel="stylesheet" href="regForm.css">
+    <link rel="stylesheet" href="../regForm.css">
 </head>
-<?php include 'navigation.php'?>
+
 <body>
 <div class="form">
-    <form action="includes/registration.php" class="form__body" method="post">
+    <form action="../includes/registration.php" class="form__body" method="post">
         <div class="title">
        <div class="line"><hr size="4"></div>
         <h1 class="formName">Register</h1>
@@ -21,24 +21,24 @@
         <div class="name">
         <div class="form__item">
             <label for="formName" class="formLabel"></label>
-            <input id="formName"  type="text" name="lastName" class="form__input-name _req" placeholder="First Name">
+            <input id="formName"  type="text" name="lastName" class="form__input-name _req" placeholder="First Name" required>
         </div>
         <div class="form__item">
             <label for="formSurname" class="formLabel"></label>
-            <input id="formSurname"  type="text" name="firstName" class="form__input-name _req" placeholder="Last Name">
+            <input id="formSurname"  type="text" name="firstName" class="form__input-name _req" placeholder="Last Name" required>
         </div>
         </div>
         <div class="form__item">
             <label for="formEmail" class="formLabel"></label>
-            <input id="formEmail"  type="email" name="email" class="form__input _req" placeholder="Email">
+            <input id="formEmail"  type="email" name="email" class="form__input _req" placeholder="Email" required>
         </div>
         <div class="form__item">
             <label for="formPassword" class="formLabel"></label>
-            <input id="formPassword"  type="password" name="password" class="form__input _req" placeholder="Password">
+            <input id="formPassword"  type="password" name="password" class="form__input _req" placeholder="Password" required>
         </div>
         <div class="form__item">
             <label for="formConfPassword" class="formLabel"></label>
-            <input id="formConfPassword"  type="password" name="confirmPass" class="form__input _req" placeholder="Confirm Password">
+            <input id="formConfPassword"  type="password" name="confirmPass" class="form__input _req" placeholder="Confirm Password" required  >
         </div>
         <div class="form__item">
             <div class="checkbox">

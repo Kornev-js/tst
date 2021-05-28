@@ -11,10 +11,10 @@ session_start()
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form</title>
-    <link rel="stylesheet" href="stylesForm.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="../stylesForm.css">
+    <link rel="stylesheet" href="../normalize.css">
 </head>
-<?php include 'navigation.php'?>
+
 <body>
 <div class="form">
     <form action="#" id="form" class="form__body">
@@ -106,6 +106,6 @@ session_start()
 
     </form>
 </div>
-<script src="scriptForm.js"></script>
+<script src="../scriptForm.js"></script>
 </body>
 </html>
