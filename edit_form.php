@@ -5,14 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../edit_form.css">
+    <link rel="stylesheet" href="edit_form.css">
     <title>Document</title>
 </head>
 
 <body>
 
 <main>
-    <form action="../includes/editSet.php" method="post" class="editForm">
+    <form action="includes/editSet.php" method="post" class="editForm">
         <div class="wrapper">
             <div class="sidebar">
                 <div class="mainInformation">
@@ -55,11 +55,11 @@
         </div>
 
         <button class="formButtons" type="submit">Edit</button>
-        <form action="../includes/dump.php">
+        <form action="includes/dump.php">
             <button type="submit" class="dumb">Dump</button>
         </form>
 
-        <form action="../includes/backup.php">
+        <form action="includes/backup.php">
             <button type="submit" class="dumb">Back Up </button>
         </form>
 

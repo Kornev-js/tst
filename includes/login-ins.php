@@ -25,10 +25,15 @@ if (mysqli_num_rows($check_user) > 0) {
     ];
 
     header('Location:../index.php');
+//    echo 'You are Logged In' . "$user['email']";
 
+
+
+//    echo 'Hello' . 'email';
 }else {
-    $_SESSION['message'] = 'Wrong pass or login';
     header('Location:../regForm.php');
+    $_SESSION['message'] = 'Wrong pass or login';
+
 }
 
 

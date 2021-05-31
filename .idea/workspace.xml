@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d414994-570e-45f9-9127-982faed79813" name="Default Changelist" comment="26.05.2021">
-      <change afterPath="$PROJECT_DIR$/includes/connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/login-ins.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dump_db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/register-inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CV.php" beforeDir="false" afterPath="$PROJECT_DIR$/CV.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/edit_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/indexForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/logForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/logForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/regForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/regForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit_form.css" beforeDir="false" afterPath="$PROJECT_DIR$/edit_form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/backup.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/backup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/dump.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/dump.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/editSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/editSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/login-ins.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/login-ins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/logForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navmenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/navmenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/regForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/regForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesCV.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesCV.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index1.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +33,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/navigation.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/regForm.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/includes/login-ins.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/includes/database.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1sx2fZZ0n2ry7XCUugyiEVm1fuP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -58,8 +59,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$/includes" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="navigation.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/public_html/public_html/navigation.php" useBuiltInWebServerPort="true">
+    <configuration name="navigation.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/public_html/public_html/components/navigation.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -84,7 +92,29 @@
       <workItem from="1622002020762" duration="599000" />
       <workItem from="1622012613696" duration="20365000" />
       <workItem from="1622055212089" duration="1834000" />
+      <workItem from="1622099593795" duration="13736000" />
+      <workItem from="1622186935659" duration="2376000" />
+      <workItem from="1622191096089" duration="1282000" />
+      <workItem from="1622192431570" duration="6497000" />
+      <workItem from="1622200687097" duration="10720000" />
+      <workItem from="1622381863161" duration="599000" />
+      <workItem from="1622388255812" duration="339000" />
     </task>
+    <task id="LOCAL-00001" summary="26.05.2021">
+      <created>1622099768928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622099768928</updated>
+    </task>
+    <task id="LOCAL-00002" summary="26.05.2021">
+      <created>1622099912702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622099912702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,5 +131,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="26.05.2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="26.05.2021" />
   </component>
 </project>
