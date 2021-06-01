@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $connect = mysqli_connect('localhost', 'admin', 'root', 'my_db');
 
 if (!$connect) {

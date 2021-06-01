@@ -19,13 +19,14 @@
         <li class="navMenu__item"><a href="?tab=logForm">Login</a></li>
         <li class="navMenu__item"><a href="?tab=CV">Resume</a></li>
         <li class="navMenu__item"><a href="?tab=indexForm">Form</a></li>
-        <li class="navMenu__item"><a href="?tab=regForm">Register</a></li>
-        <li class="navMenu__item"><a href="?tab=edit_form">Edit Form</a></li>
-        <li class="navMenu__item"><a href="#">Docs</a></li>
-        <li class="navMenu__item"><a href="#">Support</a></li>
-        <li class="navMenu__item"><a href="#">Plans</a></li>
-        <li class="navMenu__item"><a href="">Blog</a></li>
-
+        <?php if(array_key_exists('user', $_SESSION)){ ?>
+            <li class="navMenu__item"><a href="?tab=regForm">Register</a></li>
+            <li class="navMenu__item"><a href="?tab=edit_form">Edit Form</a></li>
+            <li class="navMenu__item"><a href="#">Docs</a></li>
+            <li class="navMenu__item"><a href="#">Support</a></li>
+            <li class="navMenu__item"><a href="#">Plans</a></li>
+            <li class="navMenu__item"><a href="">Blog</a></li>
+        <?php } ?>
     </ul>
 
 

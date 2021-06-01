@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d414994-570e-45f9-9127-982faed79813" name="Default Changelist" comment="26.05.2021">
-      <change afterPath="$PROJECT_DIR$/dump_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CV.php" beforeDir="false" afterPath="$PROJECT_DIR$/CV.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/edit_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/indexForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/logForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/logForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/regForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/regForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edit_form.css" beforeDir="false" afterPath="$PROJECT_DIR$/edit_form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/backup.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/backup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/dump.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/dump.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/editSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/editSet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/login-ins.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/login-ins.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/scriptForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesCV.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesCV.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesForm.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +92,9 @@
       <workItem from="1622200687097" duration="10720000" />
       <workItem from="1622381863161" duration="599000" />
       <workItem from="1622388255812" duration="339000" />
+      <workItem from="1622444842872" duration="20112000" />
+      <workItem from="1622489711672" duration="3423000" />
+      <workItem from="1622530138544" duration="20785000" />
     </task>
     <task id="LOCAL-00001" summary="26.05.2021">
       <created>1622099768928</created>
