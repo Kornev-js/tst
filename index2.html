@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .color-red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+<div id="root">
+
+
+    <h1  :class="className">hello world</h1>
+
+<button v-bind:title="title">Hover over me</button>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+
+<script>
+
+var app = new Vue({
+el:'#root',
+
+data: {
+
+    className:'color-red',
+    
+title: 'now the title remove'
+
+}
+
+
+})
+
+
+</script>
+</body>
+</html>
